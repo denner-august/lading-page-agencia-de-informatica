@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+html,body{
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 90vh;
+    max-height: 800px;
+    background-image: url(/images/capa.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+.logo{ 
+    background-image: url(/images/ajudame.jpg);
+    width: 200px;
+    height: 116px;
+    background-size: cover;
+    padding-right: 10px;
+}
+
+
+
+header nav{
+    min-width: 36rem;
+    display: flex;
+    padding: 50px; 
+    justify-content: space-between;
+}
+
+.container nav ul li{
+    display: flex;
+    flex-wrap: wrap;
+    height: 25px;
+}
+
+.container nav ul li a{
+    padding: 15px;
+    
+}
+header a{
+    color: white;
+    padding: 5px;
+}
+.links{
+    display: flex;
+}
+
+ul li a{
+    text-transform: uppercase;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+ul:hover li a{
+    opacity: 0;
+}
+
+ul li a:hover{
+    transition: scale(1.4);
+    z-index: 1000;
+    background-color: rgb(86, 99, 110);
+    opacity: 1;
+    border-radius: 20px;
+}
+
+
+
+.chamada-1{
+    margin-left: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+}
+
+.chamada-1 p{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+.meio{
+    background-color: #472562;
+    height: 250px;
+    color:white;
+    display: flex;
+    justify-content: center;
+}
+
+.meio h2{
+    font-size: 3vw;
+}
+
+.meio ul li{
+    padding-top: 15px;
+}
+
+.meio ul{
+    padding-top:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s;
+}
+
+.meio li:hover {
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+    background-color: rgb(170, 109, 211);
+    border-radius: 30px;
+}
+
+.meio button {
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color:rgb(54, 34, 68);
+    margin-top: 10px;
+    width: 300px;
+}
+
+.meio a{
+    color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    header nav{
+        min-width: 0rem;        
+    }
+    .logo{
+       display: none;
+    }
+    .container nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .chamada-1{
+        display: flex;
+        padding-top: 5rem;
+        align-items: center;
+        margin:auto;
+        text-align: center;
+    }
+
+    .chamada-1 h2{
+        font-size: 2rem;
+    }
+
+    .chamada-1 p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .meio h2{
+        font-size: 1rem;
+    }
+
+    .meio{
+        width: 100%;
+    }
+}

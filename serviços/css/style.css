@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+  
+
+}
+
+.tela{
+    height: 927px;
+    width: 1280px;
+    margin: 0 auto;
+    
+}
+
+
+#nav ul li a{
+    color:white;
+    text-decoration: none;    
+    font-size: 20px;
+}
+
+#nav ul li{
+    margin-top: 15px;
+}
+
+
+#nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }
+    
+
+
+
+ul li a:hover{
+    transition: 0.5s;
+    transition: scale(1.4);
+    z-index: 1000;
+    background-color: rgb(211, 35, 35);
+    padding: 10px;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+html,body{
+    height: 100%;
+}
+
+.center{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    
+
+}
+/*VOLTAR O HEIGHT PARA 70*/
+.header{ 
+    overflow: hidden;
+    width: 100%;
+    padding:0 2%;
+    height: 120px;
+    background-color:  #294051;
+    border-bottom: 3px solid black;
+}
+
+.header h1{
+    font-size: 25px;
+    padding: 1%;
+    color: rgba(255, 255, 255, 0.973);
+}
+
+.banner{
+    overflow: hidden;
+    padding: 0 2%;
+    width: 100%;
+    height: 100%;
+    background-image:url('../images/business-meeting-over-coffee\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.banner > .tela{
+    height: 100%;
+    text-align: right;
+    
+   
+}
+
+.form{
+    border:3px solid black;
+    border-radius: 10px;
+    margin-right: 15%;
+    width: 30%;
+    height:97% ;
+    background-color:white;
+    display: inline-block;
+    background-color: rgba(33, 35, 67, 0.9);
+    padding:10px;
+    padding-top: 40px;
+    margin-top: 15px;
+    
+}
+
+h2{
+    color:white;
+    text-align: center;
+    font-size: 20px;   
+}
+
+.perguntas{
+    color: white;
+    text-align: left;
+    margin-top: 20px;
+    
+    
+
+}
+
+.perguntas span{
+    width: 100%;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.perguntas input[type=text]{
+    width: 344px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 7px;
+    border-radius: 5px;
+}
+.perguntas input[type=number]{
+    width: 344px;
+    height: 40px;
+    border: 1px solid black;
+    margin-top: 7px;
+    border-radius: 5px;
+    
+}
+
+.atenção{
+    color: white;
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+
+.form .centralizando{
+    text-align: center;
+    
+    
+}
+
+form input[type=button]{
+    background-color: #6569a1;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 18px;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.apresentação{
+    display: inline-block;
+    border-radius: 10px;
+    float: left;    
+    height: 300px;
+    background-color: rgba(33, 35, 67, 0.9);
+    margin-top: 10%;
+    padding: 10px 15px;
+    border:3px groove black;
+}
+
+.apresentação ul li{
+    
+    list-style-position: inside;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.apresentação h1{
+    margin-top: 5px;
+    text-align: center;
+    color:white;
+ 
+}
+
+.apresentação h2{
+    margin-top: 30px;
+    text-align: center;
+    color:white;
+}
+
+.segunda{
+    
+    padding:60px 10px;
+    background-color: #294051;
+    color: WHITE;
+    text-align: center;
+    
+    border:3px groove black;
+    
+}
+
+.segunda h1{
+    font-size: 150%;
+}
+
+.segunda p{
+    display: inline-block;
+    font-size: 1,8vw;
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.section{
+    padding: 90px 2%;
+    text-align: center;
+    color: #294051;
+}
+
+.photos-section{
+   padding: 90px 2%;
+}
+
+
+
+.icone-fotos {
+    font-size: 80%;
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    padding: 0px 1%;
+    
+}
+
+.icone-fotos p{
+   font-size: 20px; 
+   text-align: justify;
+   text-align: center;
+   display: inline-block;
+   padding: 10px 1%;
+    
+}
+
+.text-icone h1{
+    font-size: 160%;
+    
+}
+
+.direitos{
+    padding:5% 0% ;
+    clear: both;
+    border-top: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1100px){
+    .header{
+        height: 100px;        
+    }
+    
+    .header h1{
+        text-align: center;
+    }
+
+    #nav nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+
+    .apresentação, .form{
+        box-sizing: border-box;
+    }
+
+    .apresentação{
+        padding-top: 10px;
+        margin-top: 30px;
+        height: 30%;
+        width:100%;
+    }
+
+    
+
+    .form, .perguntas {
+        
+        margin-top: 15px;
+        text-align: center;
+       
+    }
+
+    .form .atenção{
+        text-align: center;
+    }
+
+    .form{
+        margin-top: 100px;
+        height: 650px;
+        width: 100%;
+    }
+
+    
+
+    .tela{
+        width: 100%;
+        
+    }
+
+    .banner{
+        height: 1230px;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:500px){
+    
+    .apresentação{
+        height: 450px;
+    }
+    
+    .photos-section  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icone-fotos{
+        width: 100%;
+    }
+    
+    .photos-section{
+        padding: 0px;
+     }
+
+     .perguntas input[type=text]{
+        width: 80%;
+        
+    }
+
+    .perguntas input[type=number]{
+        width: 80%;
+    }
+}
