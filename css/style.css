@@ -16,14 +16,14 @@ header{
     width: 100%;
     height: 90vh;
     max-height: 800px;
-    background-image: url(/images/capade-fundo.jpg);
+    background-image: url(../images/capade-fundo.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
     
 }
 .logo{ 
-    background-image: url(/images/ajudame.jpg);
+    background-image: url(../images/ajudame.jpg);
     width: 200px;
     height: 116px;
     background-size: cover;
