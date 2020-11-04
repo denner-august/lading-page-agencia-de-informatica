@@ -110,6 +110,7 @@ ul li a:hover{
 
 .meio ul{
     padding-top:30px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,8 +139,91 @@ ul li a:hover{
 
 .meio a{
     color: white;
+    padding: none;
+    margin: none;    
 }
 
+
+.section2{
+    padding-top: 5rem;
+    text-align: center;
+    color: black;
+    padding-bottom: 5rem;
+    
+    
+}
+
+
+.section2 p{
+    font-size: 4vh;
+    display: inline-block;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.imagem{
+    background-image: url(../images/mockup.jpg);
+    width: 50%;
+    height: 50vh;
+    background-size: cover;
+    margin: 25%;
+    margin-top: 50px;
+    box-shadow: rgba(39, 37, 37, 0.979) 0px 0px 50px 0px;
+    position:absolute;
+    z-index: 2;
+    
+    
+}
+
+.a-b{
+    margin-top: 20%;
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.a-b .a h2{
+    font-size: 1.5rem;
+}
+
+.a-b .b h2{
+    font-size: 1.5rem;
+}
+
+.a-b .a p{
+   
+    text-align: left;
+}
+
+.a-b .b p{
+    font-size: 1.2rem;
+    max-height: 10px;
+    text-align: left;
+}
+
+
+
+.a{
+    font-size: 1.2rem;
+    box-shadow: rgba(182, 182, 182, 0.979) 0px 0px 50px 0px;
+    padding: 130px 90px;
+    text-align: center;
+    width: 50%;
+    height: 400px;
+    background-color: rgb(228, 220, 220);
+}
+
+.b{
+    box-shadow: rgba(39, 37, 37, 0.979) 0px 0px 50px 0px;
+    padding: 130px 90px;
+    text-align: center;
+    width: 50%;
+    height: 400px;
+    background-color: rgb(218, 218, 226);
+}
 
 @media screen and (max-width: 800px) {
 
@@ -178,4 +262,37 @@ ul li a:hover{
     .meio{
         width: 100%;
     }
+
+    .section2{
+        padding-bottom: 0;
+    }
+
+    .section2 p{
+        margin-bottom: 5%;
+    }
+
+    .a-b{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .a-b .a{
+        padding: 68px 22px;
+        height: 300px;
+    }
+
+    .a-b .b{
+        padding: 68px 22px;
+        height: 300px;
+    }
+
+    .imagem{
+        position: relative;
+        margin:  auto;
+    }
+
+    
 }
