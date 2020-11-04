@@ -185,20 +185,16 @@ ul li a:hover{
 }
 
 
-
-
 .a-b .a h2{
-    padding-top:15% ;
-    margin: auto;
     font-size: 1.5rem;
 }
 
 .a-b .b h2{
-    padding-top:15% ;
     font-size: 1.5rem;
-} 
+}
 
 .a-b .a p{
+   
     text-align: left;
 }
 
@@ -228,30 +224,6 @@ ul li a:hover{
     height: 400px;
     background-color: rgb(218, 218, 226);
 }
-
-/*animação*/
-[data-anime] {
-    opacity: 0;
-    transition: .3s;
-  }
-  
-  [data-anime="left"] {
-    transform: translate3d(-50px, 0, 0);
-  }
-  
-  [data-anime="right"] {
-    transform: translate3d(50px, 0, 0);
-  }
-  
-  [data-anime="top"] {
-    transform: translate3d(0, -50px, 0);
-  }
-  
-  [data-anime].animate {
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
-  }
-
 
 @media screen and (max-width: 800px) {
 
@@ -310,23 +282,13 @@ ul li a:hover{
     .a-b .a{
         min-width: 180px;
         padding: 68px 22px;
-    }
-
-    .a-b .a h2{
-        padding-top: 20%;
+        height: 60vh;
     }
 
     .a-b .b{
-        
         min-width: 180px;
         padding: 68px 22px;
-        
-    }
-
-    .a-b .b p{
-        margin-top: 15px;
-        font-size: 100%;
-
+        height: 70vh;
     }
 
     .imagem{
