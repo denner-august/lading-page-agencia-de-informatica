@@ -134,7 +134,7 @@ ul li a:hover{
     border-radius: 10px;
     background-color:rgb(54, 34, 68);
     margin-top: 10px;
-    width: 300px;
+    width: 70%;
 }
 
 .meio a{
@@ -280,11 +280,13 @@ ul li a:hover{
     }
 
     .a-b .a{
+        min-width: 180px;
         padding: 68px 22px;
         height: 60vh;
     }
 
     .a-b .b{
+        min-width: 180px;
         padding: 68px 22px;
         height: 70vh;
     }
