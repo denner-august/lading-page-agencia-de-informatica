@@ -191,11 +191,14 @@ ul li a:hover{
     
 
 .a-b .a p{
+    margin-top: 10px;
     text-align: left;
+    font-weight: normal;
 }
 
 .a-b .b p{
-   
+    margin-top: 10px;
+    font-weight: normal;
     font-size: 1.2rem;
     max-height: 10px;
     text-align: left;
@@ -247,6 +250,10 @@ ul li a:hover{
 
 @media screen and (max-width: 860px) {
 
+    header{
+        height: 70%;
+    }
+
     header nav{
         min-width: 0rem;        
     }
@@ -297,6 +304,7 @@ ul li a:hover{
     }
 
     .a-b{
+       
         margin-top: 5%;
         display: flex;
         flex-direction: column;
@@ -304,17 +312,58 @@ ul li a:hover{
         align-items: center;
     }
 
+    .a{
+        background-color: white;
+    }
+
+    .b{
+        background-color: white;
+    }
+
     .a-b .a{
-        min-width: 90%;
-        padding: 68px 22px;
-        height: 60vh;
+        
+        
+        width: 90%;
+        padding: 0px 22px;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .a-b .a p{
+        font-weight: normal;
+        margin-top: 15px;
+    }
+
+    .a-b .a h2{
+        background-color: rgb(126, 215, 221);
+        padding: 20px;
+        border-radius: 20px;
     }
 
     .a-b .b{
-        min-width: 90%;
-        padding: 68px 5px;
-        height: 70vh;
+        height: auto;
+        width: 90%;
+        padding: 0px 22px;
+        box-shadow: none;
+        
+        
     }
+
+    .a-b .b h2{
+        background-color: rgb(126, 215, 221);
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 40px;
+        
+    }
+
+    .a-b .b p{
+        max-height: none;
+        font-weight: normal;
+        margin-top: 15px;
+    }
+
+    
 
     .imagem{
         position: relative;
