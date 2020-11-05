@@ -17,6 +17,7 @@ header{
     height: 90vh;
     max-height: 800px;
     background-image: url(../images/capade-fundo.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     position: relative;
