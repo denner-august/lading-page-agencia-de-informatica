@@ -277,6 +277,12 @@ ul li a:hover{
     height: 10%;
 }
 
+.footer-button{
+    margin-top: 15px;
+    width: 31%;
+    height: 14%;
+    border-radius: 23px;
+}
 .footer-b{
     color: white;
     background-color: #472562;
