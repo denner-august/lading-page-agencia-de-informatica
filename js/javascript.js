@@ -34,3 +34,9 @@ const debounce = function(func, wait, immediate) {
       animeScroll();
     }, 200));
   }
+
+
+let completo = document.getElementById('enviar')
+enviar = (enviar) => {
+  completo.innerHTML = "COMPLETO";
+}
