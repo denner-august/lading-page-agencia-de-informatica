@@ -16,10 +16,14 @@
 }
 
 
-#nav ul li a{
-    color:white;
+#nav a{
+    color: white;
     text-decoration: none;    
     font-size: 20px;
+}
+
+#nav a:hover{
+    color: yellow;
 }
 
 #nav ul li{
@@ -33,18 +37,6 @@
     text-align: center;
  }
     
-
-
-
-ul li a:hover{
-    transition: 0.5s;
-    transition: scale(1.4);
-    z-index: 1000;
-    background-color: rgb(211, 35, 35);
-    padding: 10px;
-    opacity: 1;
-    border-radius: 10px;
-}
 
 html,body{
     height: 100%;

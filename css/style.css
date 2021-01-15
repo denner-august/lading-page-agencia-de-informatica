@@ -95,7 +95,7 @@ ul li a:hover{
 
 .meio{
     background-color: #472562;
-    height: 250px;
+    height: auto;
     color:white;
     display: flex;
     justify-content: center;
@@ -121,10 +121,8 @@ ul li a:hover{
 
 .meio li:hover {
     cursor: pointer;
-    padding: 10px;
-    color: black;
-    background-color: rgb(170, 109, 211);
-    border-radius: 30px;
+    color: yellow;
+    
 }
 
 .meio button {
@@ -147,37 +145,21 @@ ul li a:hover{
 
 .section2{
     padding-top: 5rem;
+    margin: 0px 15%;
     text-align: center;
-    color: black;
-    padding-bottom: 5rem;
-    
-    
 }
 
 
 .section2 p{
-    font-size: 4vh;
-    display: inline-block;
+    font-size: 20px;
     text-align: center;
     margin-top: 2.5rem;
 }
 
-.imagem{
-    background-image: url(../images/mockup.jpg);
-    width: 50%;
-    height: 50vh;
-    background-size: cover;
-    margin: 25%;
-    margin-top: 50px;
-    box-shadow: rgba(39, 37, 37, 0.979) 0px 0px 50px 0px;
-    position:absolute;
-    z-index: 1;
-    
-    
-}
+
 
 .a-b{
-    margin-top: 20%;
+    margin-top: 10%;
     position: absolute;
     z-index: 0;
     display: flex;
@@ -216,7 +198,6 @@ ul li a:hover{
     padding: 130px 90px;
     text-align: center;
     width: 50%;
-    height: 400px;
     background-color: rgb(228, 220, 220);
 }
 
@@ -225,37 +206,13 @@ ul li a:hover{
     padding: 130px 90px;
     text-align: center;
     width: 50%;
-    height: 400px;
     background-color: rgb(218, 218, 226);
 }
-
-/*animação*/
-[data-anime] {
-    opacity: 0;
-    transition: .3s;
-  }
-  
-  [data-anime="left"] {
-    transform: translate3d(-50px, 0, 0);
-  }
-  
-  [data-anime="right"] {
-    transform: translate3d(50px, 0, 0);
-  }
-  
-  [data-anime="top"] {
-    transform: translate3d(0, -50px, 0);
-  }
-  
-  [data-anime].animate {
-    opacity: 1;
-    transform: translate3d(0px, 0px, 0px);
-  }
 
 .footer-a{
     color: white;
     font-size: 1.2rem;
-    box-shadow: rgba(93, 94, 95, 0.979) 0px 0px 50px 0px;
+   
     padding: 40px;
     text-align: center;
     width: 50%;
@@ -268,7 +225,7 @@ ul li a:hover{
 }
 
 .footer-a span{
-    margin-top: 25px;
+    margin-top: 15px;
     display: inline-block;
 }
 
@@ -278,10 +235,10 @@ ul li a:hover{
 }
 
 .footer-button{
-    margin-top: 15px;
-    width: 31%;
-    height: 14%;
-    border-radius: 23px;
+    margin-top: 30px;
+    width: 80%;
+    height: 15%;
+    
 }
 .footer-b{
     color: white;
@@ -291,6 +248,7 @@ ul li a:hover{
     text-align: center;
     width: 50%;
     height: 400px;
+    
 }
 
 .gm-style .place-card-large {
@@ -346,7 +304,8 @@ ul li a:hover{
     }
 
     .section2{
-        padding-bottom: 0;
+        margin: 0px 5%;
+      
     }
 
     .section2 p{
@@ -433,7 +392,7 @@ ul li a:hover{
         background-color:white;
         width: 100%;
         height: 500px;
-        padding-bottom: 70px;
+        margin-top:10vh;
         
     }
 
